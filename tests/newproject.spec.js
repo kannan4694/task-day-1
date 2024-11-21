@@ -13,6 +13,6 @@ test  ("new task",async ({ }) => {
     const page=await browser.newPage();
    await page.goto(`www.amazon.com`);
    await page.goto(`www.flipkart`);
-   await page.screenshot(path= easy.png);
+   await page.screenshot({path: easy.png});
   });
     
